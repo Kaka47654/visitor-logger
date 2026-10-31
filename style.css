@@ -34,3 +34,24 @@ p {
 #status {
     margin-top: 25px;
 }
+
+
+button {
+    padding: 13px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #3478f6;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2563d9;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
