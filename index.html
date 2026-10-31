@@ -10,9 +10,25 @@
 <body>
     <main class="container">
         <h1>Welcome</h1>
-        <p>This website collects your IP address for visitor analytics.</p>
 
-        <p id="status">Please wait...</p>
+        <p>
+            This website can collect your public IP address
+            and store it in the website owner's private
+            Google spreadsheet.
+        </p>
+
+        <p>
+            Your IP address is retrieved using ipify,
+            a third-party IP lookup service.
+        </p>
+
+        <button id="consentButton">
+            I agree to IP collection
+        </button>
+
+        <p id="status" aria-live="polite">
+            No information has been collected.
+        </p>
     </main>
 
     <script src="script.js"></script>
